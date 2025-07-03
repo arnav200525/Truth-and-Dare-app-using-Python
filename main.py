@@ -40,9 +40,9 @@ while True:
     break
 
 while True:
-    mode2 = int(input("\nTruth/Dare should be randomized or selected by user:\n\n1. Selected by user\n2. Random"))
+    mode2 = int(input("\nTruth/Dare should be randomized or selected by user:\n\n1. Selected by user\n2. Random\nSelect: "))
     if mode2 not in [1, 2]:
-        print("Please select valid option (1 / 2)!")
+        print("Please select valid option (1 / 2)! ")
         continue
     break
 if mode2 == 2:
